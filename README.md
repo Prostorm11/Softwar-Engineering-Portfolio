@@ -57,7 +57,6 @@ GitHub Actions
 
 2) Flutter Test / Mockito
 
-Appium
 
 🗂️ Data & Storage
 
