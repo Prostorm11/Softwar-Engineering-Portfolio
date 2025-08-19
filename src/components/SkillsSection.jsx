@@ -7,7 +7,7 @@ const skills = [
   { name: "React Native", level: 90, category: "Mobile App" },
   { name: "Kotln", level: 90, category: "Mobile App" },
   { name: "Hive", level: 85, category: "Mobile App" },
-  { name: "Dio/HTTP calls", level: 90, category: "Mobile App" },
+  { name: "Dio/HTTP call", level: 90, category: "Mobile App" },
   { name: "Firebase/Cloud Functions", level: 80, category: "Mobile App" },
   { name: "Tailwind", level: 80, category: "Mobile App" },
   
