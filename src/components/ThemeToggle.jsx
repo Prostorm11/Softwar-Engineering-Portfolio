@@ -11,7 +11,7 @@ export const ThemeToggle = () => {
       setIsDarkMode(true);
       document.documentElement.classList.add("dark");
     } else {
-      localStorage.setItem("theme", "light");
+      localStorage.setItem("theme", "dark");
       setIsDarkMode(false);
     }
   }, []);
@@ -36,11 +36,11 @@ export const ThemeToggle = () => {
         "focus:outlin-hidden"
       )}
     >
-      {isDarkMode ?  (
-        <Moon className="h-6 w-6 text-blue-900" />
-      ):(
+      {isDarkMode ? (
         <Sun className="h-6 w-6 text-yellow-300" />
-      ) }
+      ) : (
+        <Moon className="h-6 w-6 text-blue-900" />
+      )}
     </button>
   );
 };
