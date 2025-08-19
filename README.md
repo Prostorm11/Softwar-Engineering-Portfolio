@@ -3,127 +3,73 @@
 <div>
   <h2>📱 Mobile App Development (React Native)</h2>
   <ul>
-    <li><b>Core:</b> React Native, Expo, TypeScript/JavaScript</li>
+    <li><b>Frameworks:</b> Flutter, Kotln + Android SDK, React Native(Expo)</li>
+    <li><b>languages:</b> Kotln, Dart, TypeScript/JavaScript</li>
     <li><b>UI/UX:</b> React Navigation, NativeBase, React Native Paper, Tailwind RN</li>
     <li><b>State Management:</b> Redux, MobX, Zustand, Recoil, Context API</li>
     <li><b>Networking:</b> Axios, React Query, Apollo Client (GraphQL)</li>
-    <li><b>Backend / Cloud:</b> Firebase (Auth, Firestore, Storage), Supabase, AWS Amplify</li>
+    <li><b>Backend / Cloud:</b> Firebase (Auth, Firestore, Storage), AWS Amplify</li>
     <li><b>Testing:</b> Jest, React Native Testing Library, Detox</li>
-    <li><b>CI/CD:</b> Fastlane, GitHub Actions, Bitrise, App Center</li>
-    <li><b>Native Integrations:</b> Swift, Kotlin, JNI, Native Modules</li>
-    <li><b>Performance:</b> Flipper, Hermes Engine, Proguard</li>
-    <li><b>Other Tools:</b> Lottie, react-native-video, react-native-maps, Payments (Stripe, PayPal, Razorpay)</li>
+    <li><b>CI/CD:</b>GitHub Actions</li>
+    <li><b>Other Tools:</b> Lottie, react-native-video, react-native-maps, Payments (Paystack)</li>
   </ul>
 </div>
 
 
-## 📋 Table of Contents
+📱 Front-End Development (Core Frameworks)
 
-1. [Introduction](#-introduction)
-2. [Tech Stack](#-tech-stack)
-3. [Features](#-features)
-4. [Quick Start](#-quick-start)
-5. [Screenshots](#-screenshots)
-6. [Deployment](#-deployment)
+1) React (JavaScript/TypeScript)
 
----
+🔧 State Management
 
-## 🚀 Introduction
+* Redux / Redux Toolkit
 
-In this tutorial, you'll learn how to build a modern portfolio website using **React**, **TailwindCSS**, **Vite**, and **Lucide Icons**. From dark mode support to responsive animations and deployable project showcases, this video walks you through every step—perfect for developers looking to level up their frontend skills or apply for jobs.
 
-🎥 Watch the full tutorial: [YouTube](https://youtu.be/YOUR_VIDEO_ID)
+☁️ Backend & Cloud Integration
 
----
+1) Firebase (Firestore, Auth, Cloud Functions, Storage, FCM)
 
-## ⚙️ Tech Stack
+2) AWS Amplify
 
-* **React** – Component-based UI development
-* **Vite** – Lightning-fast build tool
-* **TailwindCSS** – Utility-first CSS for styling
-* **Lucide Icons** – Clean and beautiful icon pack
-* **Radix UI** – Accessible component primitives
-* **TypeScript (optional)** – Type safety and tooling
-* **GitHub & Vercel** – Deployment
 
----
+3) REST APIs with Axios
 
-## ⚡️ Features
+🎨 UI & Styling
 
-* 🌑 **Light/Dark Mode Toggle**
-  Save theme preference in local storage with beautiful transitions
+1) Tailwind (via NativeWind for RN)
 
-* 💫 **Animated Backgrounds**
-  Stars, meteors, scroll effects, and glowing UI elements
+2) Material Design / Material 3
 
-* 📱 **Responsive Navigation**
-  Desktop and mobile menus with glassmorphism
+3) Lottie animations
 
-* 👨‍💻 **Hero & About Sections**
-  Showcase who you are with smooth intro animations and buttons
+🛠️ Tooling & CI/CD
 
-* 📊 **Skills Grid**
-  Filterable progress bars and categories with animated width
+1) Expo (React Native)
 
-* 🖼️ **Projects Showcase**
-  Display screenshots, tech stacks, and GitHub/demo links
+2) Fastlane (automated builds & deployments)
 
-* 📩 **Contact Section**
-  Social icons + responsive contact form with toast notifications
 
-* 🚀 **One-Click Deployment**
-  Easily host your site with Vercel and GitHub
+GitHub Actions
 
----
+🧪 Testing & Quality
 
-## 👌 Quick Start
+1) Jest / React Native Testing Library
 
-### Prerequisites
+2) Flutter Test / Mockito
 
-* [Node.js](https://nodejs.org/)
-* [Git](https://git-scm.com/)
+Appium
 
-### Clone and Run
+🗂️ Data & Storage
 
-```bash
-git clone https://github.com/yourusername/react-tailwind-portfolio.git
-cd react-tailwind-portfolio
-npm install
-npm run dev
-```
+1) SQLite (Android)
 
-Your app will be available at: [http://localhost:5173](http://localhost:5173)
+2) Hive (Flutter)
 
----
+3) AsyncStorage (RN)
 
-## 🖼️ Screenshots
 
-> 📸 Add screenshots of your Hero section, Projects grid, and Contact form here to show off your site.
+🚀 Performance & Analytics
 
----
+1) Firebase Crashlytics & Analytics
 
-## ☁️ Deployment
-
-### Deploy on Vercel
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your repository
-4. Click **Deploy**
-
-Your live website will be hosted on a custom subdomain (e.g. `https://your-name.vercel.app`)
-
----
-
-## 🔗 Useful Links
-
-* [React Documentation](https://reactjs.org/)
-* [Tailwind CSS Docs](https://tailwindcss.com/)
-* [Lucide Icons](https://lucide.dev/)
-* [Radix UI](https://www.radix-ui.com/)
-* [Vite](https://vitejs.dev/)
-* [Vercel](https://vercel.com/)
-
----
-
-Let me know if you'd like me to generate a version with your actual GitHub repo, YouTube URL, or a banner image suggestion!
+2) Flipper (React Native debugging)
